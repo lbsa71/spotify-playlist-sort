@@ -1,0 +1,30 @@
+{
+  "name": "spotify-playlist-sort",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Algorithm to sor Spotify playlist according to mixability distance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbsa71/spotify-playlist-sort.git"
+  },
+  "keywords": [
+    "spotify",
+    "sorting",
+    "playlist"
+  ],
+  "author": "Stefan Andersson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lbsa71/spotify-playlist-sort/issues"
+  },
+  "homepage": "https://github.com/lbsa71/spotify-playlist-sort#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "spotify-web-api-node": "^4.0.0",
+    "web-auth": "https://github.com/lbsa71/web-auth/tarball/master"
+  }
+}
